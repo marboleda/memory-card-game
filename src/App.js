@@ -9,6 +9,13 @@ const App = () => {
 
   return (
     <div className="App">
+      <header>
+        <h1>Tekken Character Memory Game</h1>
+        <p>Get points by clicking on an image, but don't click on any more than once!</p>
+        <span>Score: {score}</span>
+        <span>Top Score: {topScore}</span>
+      </header>
+
     </div>
   );
 }
