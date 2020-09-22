@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import GameGrid from './components/GameGrid'
 
 const App = () => {
   const [score, setScore] = useState(0);
@@ -15,6 +16,10 @@ const App = () => {
         <span>Score: {score}</span>
         <span>Top Score: {topScore}</span>
       </header>
+
+      <GameGrid
+        order={order}
+         />
 
     </div>
   );
