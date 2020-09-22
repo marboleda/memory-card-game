@@ -1,4 +1,6 @@
 import React from 'react';
+import './Card.css';
+
 import alisa from '../images/alisa.png'
 import anna from '../images/anna.png'
 import bryan from '../images/bryan.png'

@@ -1,4 +1,5 @@
 import React from 'react';
+import './GameGrid.css';
 import Card from './Card';
 
 const gameGrid = (props) => {
