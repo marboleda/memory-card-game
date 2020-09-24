@@ -4,7 +4,7 @@ import Card from './Card';
 
 const gameGrid = (props) => {
 
-    const { order } = props;
+    const { order, shuffle } = props;
 
     return (
         <div className='game-grid'>
@@ -12,6 +12,7 @@ const gameGrid = (props) => {
                 return (
                     <Card 
                         cardNum={cardNum}
+                        shuffle={shuffle}
                     />
                 )
             })}

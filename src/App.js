@@ -8,6 +8,23 @@ const App = () => {
   const [order, setOrder] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
   const [clicked, setClicked] = useState(Array(12).fill(false));
 
+  const shuffleOrder = () => {
+    //use Fisher-Yates algorithm
+    let newOrder = [...order];
+    let currentIndex = newOrder.length, tempValue, randomIndex;
+
+    while (currentIndex) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      tempValue = newOrder[currentIndex];
+      newOrder[currentIndex] = newOrder[randomIndex];
+      newOrder[randomIndex] = tempValue;
+    }
+
+    setOrder(newOrder);
+  }
+
   return (
     <div className="App">
       <header>
@@ -19,6 +36,7 @@ const App = () => {
 
       <GameGrid
         order={order}
+        shuffle={shuffleOrder}
          />
 
     </div>
