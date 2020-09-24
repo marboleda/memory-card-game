@@ -56,11 +56,11 @@ const getImageInfo = (cardNum) => {
 
 const card = (props) => {
 
-    const { cardNum, shuffle } = props;
+    const { cardNum, click } = props;
     const imageInfo = getImageInfo(cardNum);
 
     return(
-        <div className='card' onClick={shuffle}>
+        <div className='card' onClick={() => {click(cardNum)}}>
             <img src={imageInfo[0]} alt={imageInfo[1]}/>
             <h2> {imageInfo[1]} </h2>
         </div>

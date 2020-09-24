@@ -10,7 +10,7 @@ const App = () => {
 
   const shuffleOrder = () => {
     //use Fisher-Yates algorithm
-    let newOrder = [...order];
+    const newOrder = [...order];
     let currentIndex = newOrder.length, tempValue, randomIndex;
 
     while (currentIndex) {
@@ -25,6 +25,29 @@ const App = () => {
     setOrder(newOrder);
   }
 
+  const handleCardClick = (cardNum) => {
+    shuffleOrder()
+
+    const newClickedArray = [...clicked];
+
+    if (clicked[cardNum]) { //if card already clicked
+      if (score > topScore) {
+        setTopScore(score);
+      }
+      setScore(0);
+      setClicked(Array(12).fill(false));
+    }
+    else { //if card not previously clicked
+      if (score + 1 > topScore) {
+        setTopScore(score + 1);
+      }
+      newClickedArray[cardNum] = true;
+      setScore(score + 1);
+      setClicked(newClickedArray);
+    }
+
+  }
+
   return (
     <div className="App">
       <header>
@@ -36,7 +59,7 @@ const App = () => {
 
       <GameGrid
         order={order}
-        shuffle={shuffleOrder}
+        click={handleCardClick}
          />
 
     </div>
