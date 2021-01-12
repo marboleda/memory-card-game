@@ -6,6 +6,8 @@ Demo: [Link](https://marboleda.github.io/memory-card-game)
 ## Used
 - JavaScript
 - React (w/ Hooks)
+- TypeScript
 
 ## What did I learn?
 - Using Hooks to manage state in React
+- How to migrate my JavaScript project into TypeScript
