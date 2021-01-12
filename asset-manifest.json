@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/memory-card-game/static/css/main.62f31af7.chunk.css",
-    "main.js": "/memory-card-game/static/js/main.a11e2c52.chunk.js",
-    "main.js.map": "/memory-card-game/static/js/main.a11e2c52.chunk.js.map",
+    "main.css": "/memory-card-game/static/css/main.995fdd9c.chunk.css",
+    "main.js": "/memory-card-game/static/js/main.070c2797.chunk.js",
+    "main.js.map": "/memory-card-game/static/js/main.070c2797.chunk.js.map",
     "runtime-main.js": "/memory-card-game/static/js/runtime-main.799ae9f3.js",
     "runtime-main.js.map": "/memory-card-game/static/js/runtime-main.799ae9f3.js.map",
-    "static/js/2.da04e326.chunk.js": "/memory-card-game/static/js/2.da04e326.chunk.js",
-    "static/js/2.da04e326.chunk.js.map": "/memory-card-game/static/js/2.da04e326.chunk.js.map",
+    "static/js/2.f92bbe71.chunk.js": "/memory-card-game/static/js/2.f92bbe71.chunk.js",
+    "static/js/2.f92bbe71.chunk.js.map": "/memory-card-game/static/js/2.f92bbe71.chunk.js.map",
     "index.html": "/memory-card-game/index.html",
-    "precache-manifest.d4616a8086f62723b43a38f7f3919b5c.js": "/memory-card-game/precache-manifest.d4616a8086f62723b43a38f7f3919b5c.js",
+    "precache-manifest.533c6473598259f4f9feae0b56615c64.js": "/memory-card-game/precache-manifest.533c6473598259f4f9feae0b56615c64.js",
     "service-worker.js": "/memory-card-game/service-worker.js",
-    "static/css/main.62f31af7.chunk.css.map": "/memory-card-game/static/css/main.62f31af7.chunk.css.map",
-    "static/js/2.da04e326.chunk.js.LICENSE.txt": "/memory-card-game/static/js/2.da04e326.chunk.js.LICENSE.txt",
+    "static/css/main.995fdd9c.chunk.css.map": "/memory-card-game/static/css/main.995fdd9c.chunk.css.map",
+    "static/js/2.f92bbe71.chunk.js.LICENSE.txt": "/memory-card-game/static/js/2.f92bbe71.chunk.js.LICENSE.txt",
     "static/media/alisa.png": "/memory-card-game/static/media/alisa.e3243f7d.png",
     "static/media/anna.png": "/memory-card-game/static/media/anna.8ae2a7c4.png",
     "static/media/bryan.png": "/memory-card-game/static/media/bryan.71fe0d4b.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.799ae9f3.js",
-    "static/js/2.da04e326.chunk.js",
-    "static/css/main.62f31af7.chunk.css",
-    "static/js/main.a11e2c52.chunk.js"
+    "static/js/2.f92bbe71.chunk.js",
+    "static/css/main.995fdd9c.chunk.css",
+    "static/js/main.070c2797.chunk.js"
   ]
 }
