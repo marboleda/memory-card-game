@@ -2,7 +2,12 @@ import React from 'react';
 import './GameGrid.css';
 import Card from './Card';
 
-const gameGrid = (props) => {
+interface GameGridProps {
+    order: number[];
+    click: (cardNum: number) => void;
+}
+
+const GameGrid: React.FC<GameGridProps> = (props) => {
 
     const { order, click } = props;
 
@@ -21,4 +26,4 @@ const gameGrid = (props) => {
 
 }
 
-export default gameGrid
+export default GameGrid

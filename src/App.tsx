@@ -11,7 +11,7 @@ const App = () => {
   const shuffleOrder = () => {
     //use Fisher-Yates algorithm
     const newOrder = [...order];
-    let currentIndex = newOrder.length, tempValue, randomIndex;
+    let currentIndex = newOrder.length, tempValue: number, randomIndex: number;
 
     while (currentIndex) {
       randomIndex = Math.floor(Math.random() * currentIndex);
@@ -25,7 +25,7 @@ const App = () => {
     setOrder(newOrder);
   }
 
-  const handleCardClick = (cardNum) => {
+  const handleCardClick = (cardNum: number) => {
     shuffleOrder()
 
     const newClickedArray = [...clicked];

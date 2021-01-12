@@ -14,7 +14,7 @@ import miguel from '../images/miguel.jpg';
 import paul from '../images/paul.png';
 import raven from '../images/raven.jpg';
 
-const getImageInfo = (cardNum: number) => {
+const getImageInfo = (cardNum: number): [string, string] => {
     switch(cardNum) {
         case 0:
             return [jin, 'Jin'];
@@ -50,14 +50,19 @@ const getImageInfo = (cardNum: number) => {
             return [raven, 'Raven'];
             break;
         case 11:
+        default:
             return [miguel, 'Miguel'];
     }
 }
 
-const card = (props) => {
+interface CardProps {
+    cardNum: number;
+    click: (cardNum: number) => void;
+}
 
-    const { cardNum, click } = props;
-    const imageInfo = getImageInfo(cardNum);
+const Card: React.FC<CardProps> = ({ cardNum, click }) => {
+
+    const imageInfo: [string, string] = getImageInfo(cardNum);
 
     return(
         <div className='card' onClick={() => {click(cardNum)}}>
@@ -67,4 +72,4 @@ const card = (props) => {
     )
 }
 
-export default card
+export default Card
