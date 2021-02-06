@@ -13,6 +13,9 @@ import lili from '../images/lili.jpeg';
 import miguel from '../images/miguel.jpg';
 import paul from '../images/paul.png';
 import raven from '../images/raven.jpg';
+import hwoarang from '../images/hwoarang.jpg';
+import yoshimitsu from '../images/yoshimitsu.png';
+import lee from '../images/lee.jpg';
 
 const getImageInfo = (cardNum: number): [string, string] => {
     switch(cardNum) {
@@ -50,8 +53,15 @@ const getImageInfo = (cardNum: number): [string, string] => {
             return [raven, 'Raven'];
             break;
         case 11:
-        default:
             return [miguel, 'Miguel'];
+        case 12:
+            return [hwoarang, 'Hwoarang'];
+        case 13:
+            return [yoshimitsu, 'Yoshimitsu'];
+        case 14:
+        default:
+            return [lee, 'Lee'];
+            
     }
 }
 
