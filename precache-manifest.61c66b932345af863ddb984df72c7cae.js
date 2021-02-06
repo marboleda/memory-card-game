@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f77e509b963a45737d1dda7e25a0f14e",
+    "revision": "5cfed893c104b69f913db8a649fb475c",
     "url": "/memory-card-game/index.html"
   },
   {
-    "revision": "2c45f2f7c4df32311008",
-    "url": "/memory-card-game/static/css/main.995fdd9c.chunk.css"
+    "revision": "a2fa6daee5fd83167e06",
+    "url": "/memory-card-game/static/css/main.7002bb70.chunk.css"
   },
   {
-    "revision": "dd4ffc9017996fd8bf20",
-    "url": "/memory-card-game/static/js/2.f92bbe71.chunk.js"
+    "revision": "abfbea0cd4ac3025060a",
+    "url": "/memory-card-game/static/js/2.a6e93d49.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/memory-card-game/static/js/2.f92bbe71.chunk.js.LICENSE.txt"
+    "url": "/memory-card-game/static/js/2.a6e93d49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c45f2f7c4df32311008",
-    "url": "/memory-card-game/static/js/main.070c2797.chunk.js"
+    "revision": "a2fa6daee5fd83167e06",
+    "url": "/memory-card-game/static/js/main.5dfbf8ec.chunk.js"
   },
   {
     "revision": "9da7231189e0e08fd771",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/memory-card-game/static/media/heihachi.44e7663f.jpg"
   },
   {
+    "revision": "ab1f882abccb0b2595dfa7123f43b20a",
+    "url": "/memory-card-game/static/media/hwoarang.ab1f882a.jpg"
+  },
+  {
     "revision": "a7370a0707fa337932b1dc4e93a91646",
     "url": "/memory-card-game/static/media/jin.a7370a07.jpg"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cd319a8b152b5f49b00f8c89eda850cd",
     "url": "/memory-card-game/static/media/king.cd319a8b.png"
+  },
+  {
+    "revision": "423bcfe3bd6360e62c8311d61ac224e7",
+    "url": "/memory-card-game/static/media/lee.423bcfe3.jpg"
   },
   {
     "revision": "ccb26fcc62062e6d8e486db2dd6c8b1a",
@@ -74,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03bb4545861bc5f858fe6080875979c2",
     "url": "/memory-card-game/static/media/tarrget.03bb4545.ttf"
+  },
+  {
+    "revision": "a7ba32878b594517104daf0cccf0b48a",
+    "url": "/memory-card-game/static/media/yoshimitsu.a7ba3287.png"
   }
 ]);
