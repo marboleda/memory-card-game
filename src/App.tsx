@@ -31,9 +31,6 @@ const App = () => {
     const newClickedArray = [...clicked];
 
     if (clicked[cardNum]) { //if card already clicked
-      if (score > topScore) {
-        setTopScore(score);
-      }
       setScore(0);
       setClicked(Array(15).fill(false));
     }
